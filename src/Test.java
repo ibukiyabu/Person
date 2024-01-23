@@ -8,6 +8,11 @@ public class Test {
 		Person jiro = new Person("木村次郎",18, "111-1111-1111", "Tokyo");
 		Person ibuki = new Person("薮 慰夫貴", 29, "222-2222-2222", "Fukuoka");
 		
+		//Robot
+		Robot aibo = new Robot();
+		Robot asimo = new Robot();
+		Robot pepper = new Robot();
+		
 		
 		taro.printData();
 		jiro.printData();
@@ -17,6 +22,8 @@ public class Test {
 		taro.talk();
 		taro.walk();
 		taro.run();
+		
+		//演習8
 		
 	}
 	

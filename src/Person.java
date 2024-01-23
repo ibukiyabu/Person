@@ -21,6 +21,8 @@ public class Person {
 		System.out.println(this.address);
 	}
 	
+	
+	//演習6
 	public void talk() {
 		System.out.println(this.name + "が話す");
 	}
