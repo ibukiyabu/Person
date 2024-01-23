@@ -13,6 +13,11 @@ public class Test {
 		jiro.printData();
 		ibuki.printData();
 		
+		//演習6
+		taro.talk();
+		taro.walk();
+		taro.run();
+		
 	}
 	
 }

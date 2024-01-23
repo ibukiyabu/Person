@@ -20,5 +20,18 @@ public class Person {
 		System.out.println(this.phoneNumber);
 		System.out.println(this.address);
 	}
-
+	
+	public void talk() {
+		System.out.println(this.name + "が話す");
+	}
+	
+	public void walk() {
+		System.out.println(this.name + "が歩く");
+	}
+	
+	public void run() {
+		System.out.println(this.name + "が走る");
+	}
+	
+	
 }
