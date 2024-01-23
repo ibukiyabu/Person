@@ -7,14 +7,18 @@ public class Person {
 	public String address = null;
 
 	
-	Person(String name, int age){
+	Person(String name, int age, String phoneNumber, String address){
 		this.name = name;
 		this.age = age;
+		this.phoneNumber = phoneNumber;
+		this.address = address;
 	}
 	
 	public void printData() {
 		System.out.println(this.name);
 		System.out.println(this.age);
+		System.out.println(this.phoneNumber);
+		System.out.println(this.address);
 	}
 
 }
