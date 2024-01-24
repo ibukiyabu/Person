@@ -9,9 +9,9 @@ public class Test {
 		Person ibuki = new Person("薮 慰夫貴", 29, "222-2222-2222", "Fukuoka");
 		
 		//Robot
-		Robot aibo = new Robot();
-		Robot asimo = new Robot();
-		Robot pepper = new Robot();
+		Robot aibo = new Robot("aibo");
+		Robot asimo = new Robot("asimo");
+		Robot pepper = new Robot("pepper");
 		
 		
 		taro.printData();
@@ -24,7 +24,9 @@ public class Test {
 		taro.run();
 		
 		//演習8
-		
+		aibo.talk();
+		asimo.walk();
+		pepper.run();
 	}
 	
 }
